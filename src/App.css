@@ -1,0 +1,56 @@
+.container {
+  margin: auto;
+  width: 60%;
+
+  padding: 15% 0 0 20%;
+}
+
+.container h1,
+h4 {
+  color: gray;
+}
+.container h4 {
+  position: relative;
+  left: 23%;
+}
+
+.quantity {
+  position: relative;
+  left: 25%;
+}
+
+.quantity_input {
+  color: chocolate;
+  text-align: center;
+  width: 42px;
+  height: 29px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #dee0e3;
+  border-bottom: 2px solid #dee0e3;
+  border-left: 1px solid #dee0e3;
+  border-right: 2px solid #dee0e3;
+}
+
+.quantity_minus,
+.quantity_plus {
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: gray;
+  position: relative;
+  top: 2px;
+}
+.quantity_minus {
+  border-radius: 3px 0 0 3px;
+  padding: 5px 12px;
+}
+.quantity_plus {
+  border-radius: 0 3px 3px 0;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: blue;
+}
